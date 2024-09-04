@@ -3,6 +3,7 @@
 		"goalMainId": 1,
 		"goalMainName": "Qualified Opportunity?",
 		"goalMainDescription": null,
+		"goalParentId": 0,
 		"goalSubs": [],
 		"goalQus": [
 			{
@@ -37,6 +38,7 @@
 		"goalMainId": 2,
 		"goalMainName": "DDI Management Only  (formerly “IPAM Only”)",
 		"goalMainDescription": "Customer Characteristics",
+		"goalParentId": 1,
 		"goalSubs": [
 			{
 				"goalSubId": 2,
@@ -77,6 +79,7 @@
 		"goalMainId": 3,
 		"goalMainName": "Full DDI Management  (with Protocol Services)\n",
 		"goalMainDescription": "Customer Characteristics",
+		"goalParentId": 1,
 		"goalSubs": [
 			{
 				"goalSubId": 4,
