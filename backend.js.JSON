@@ -1,0 +1,107 @@
+[
+	{
+		"goalMainId": 1,
+		"goalMainName": "Qualified Opportunity?",
+		"goalMainDescription": null,
+		"goalSubs": [],
+		"goalQus": [
+			{
+				"goalQusId": 2,
+				"question": "Are you automating DNS zone, record or IP space provisioning? If so, what tools are you using (e.g., Terraform, Ansible)?"
+			},
+			{
+				"goalQusId": 1,
+				"question": "Do you have distinct NetOps and CloudOps teams? At what point in the organization do they converge?"
+			},
+			{
+				"goalQusId": 3,
+				"question": "What team is responsible for IP address management (or IPAM) across the enterprise? Is the same team responsible for on-premises and cloud environments"
+			}
+		],
+		"goalResponses": [
+			{
+				"goalResponseId": 3,
+				"response": "No",
+				"targetlink": "3",
+				"isprodlink": 0
+			},
+			{
+				"goalResponseId": 2,
+				"response": "Yes",
+				"targetlink": "2",
+				"isprodlink": 0
+			}
+		]
+	},
+    {
+		"goalMainId": 2,
+		"goalMainName": "DDI Management Only  (formerly “IPAM Only”)",
+		"goalMainDescription": "Customer Characteristics",
+		"goalSubs": [
+			{
+				"goalSubId": 2,
+				"goalSubName": "For On-prem (Microsoft/BIND)",
+				"goalSubOption": "Microsoft/Systems teams own AD/DNS and has no plans to change"
+			},
+			{
+				"goalSubId": 1,
+				"goalSubName": "For Public Cloud",
+				"goalSubOption": "Cloud Ops owns DNS\nCloud Ops has preference for native tools\nCurrent cloud automation is mature"
+			},
+			{
+				"goalSubId": 3,
+				"goalSubName": "NetOps/Engineering Initiatives",
+				"goalSubOption": "Primary interest is in Visibility & Management"
+			}
+		],
+		"goalQus": [
+			{
+				"goalQusId": 4,
+				"question": "WHAT"
+			},
+			{
+				"goalQusId": 5,
+				"question": "WHY"
+			}
+		],
+		"goalResponses": [
+			{
+				"goalResponseId": 4,
+				"response": "2",
+				"targetlink": "4",
+				"isprodlink": 0
+			}
+		]
+	},
+	{
+		"goalMainId": 3,
+		"goalMainName": "Full DDI Management  (with Protocol Services)\n",
+		"goalMainDescription": "Customer Characteristics",
+		"goalSubs": [
+			{
+				"goalSubId": 4,
+				"goalSubName": "For Public Cloud",
+				"goalSubOption": "Cloud Ops owns DNS\n"
+			},
+			{
+				"goalSubId": 5,
+				"goalSubName": "NetOps/Engineering Initiatives",
+				"goalSubOption": "Current cloud automation is mature"
+			}
+		],
+		"goalQus": [
+			{
+				"goalQusId": 6,
+				"question": "HOW"
+			}
+		],
+		"goalResponses": [
+			{
+				"goalResponseId": 5,
+				"response": "3",
+				"targetlink": "5",
+				"isprodlink": null
+			}
+		]
+	}
+]
